@@ -807,11 +807,11 @@ html,body,.main{
     width: 2.3rem;
     height: 0.01rem;
     border: 0.01rem dashed #00b3ee;
-    position: absolute;
+    /*position: absolute;*/
 }
 .slide5 .line1{
-    top: 3.8rem;
-    left: 0.8rem;
+    margin-top: 3.8rem;
+    margin-left: 0.8rem;
 }
 .slide5 .line2{
     /*width: 4rem;*/
@@ -824,8 +824,8 @@ html,body,.main{
     left: 0.8rem;
 }
 .slide5 .line3{
-    top: 8.8rem;
-    left: 0.8rem;
+    margin-top: 8.8rem;
+    margin-left: 0.8rem;
 }
 .slide5 .line4{
     height: 3rem;
