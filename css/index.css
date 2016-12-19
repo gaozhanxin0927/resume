@@ -42,13 +42,14 @@ html,body,.main{
     left: 2.1rem;
 }
 .slide1 .personal{
-    position: absolute;
+    /*position: absolute;*/
+    display: inline-block;
     color: #fff;
     font-size: 0.3rem;
-    width: 3rem;
+    width: 3.5rem;
     height:0.4rem;
-    top: 4.4rem;
-    left: 1.8rem;
+    margin-top: 4.4rem;
+    margin-left: 1.8rem;
 }
 .slide1 img:nth-child(5){
     width: 2.8rem;
