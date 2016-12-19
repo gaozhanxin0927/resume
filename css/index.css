@@ -805,13 +805,14 @@ html,body,.main{
 }
 .slide5 .line{
     width: 2.3rem;
-    height: 0.05rem;
+    height: 0.01rem;
     border: 0.1rem dashed #00b3ee;
     /*position: absolute;*/
 }
 .slide5 .line1{
     margin-top: 3.8rem;
     margin-left: 0.8rem;
+    border-bottom: 0.1rem dashed #00b3ee;
 }
 .slide5 .line2{
     /*width: 4rem;*/
