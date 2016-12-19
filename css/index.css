@@ -1241,9 +1241,12 @@ html,body,.main{
     font-family: "MV Boli";
     font-size: 0.4rem;
     color: white;
-    position: absolute;
-    top: 0.01rem;
-    left: 1.8rem;
+    width: 3rem;
+    height: 0.5rem;
+    display: inline-block;
+    /*position: absolute;*/
+    margin-top: 0.01rem;
+    margin-left: 1.8rem;
 }
 .music{
     width: 0.5rem;
