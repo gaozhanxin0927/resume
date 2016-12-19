@@ -805,7 +805,7 @@ html,body,.main{
 }
 .slide5 .line{
     width: 2.3rem;
-    /*height: 0.01rem;*/
+    height: 0.01rem;
     border: 0.01rem dashed #00b3ee;
     position: absolute;
 }
@@ -874,20 +874,20 @@ html,body,.main{
     top: 5.8rem;
 }
 #page5 .line1{
-    -webkit-animation: bounceInLeft 1s 2.5s 1 both;
-    animation: bounceInLeft 1s 2.5s 1 both;
+    -webkit-animation: fadeInLeft 1s 2.5s 1 both;
+    animation: fadeInLeft 1s 2.5s 1 both;
 }
 #page5 .line2-1{
-    -webkit-animation: bounceInDown 1s 2.5s 1 both;
-    animation: bounceInDown 1s 2.5s 1 both;
+    -webkit-animation: fadeInDown 1s 2.5s 1 both;
+    animation: fadeInDown 1s 2.5s 1 both;
 }
 #page5 .line3{
-    -webkit-animation: bounceInRight 1s 3.5s 1 both;
-    animation: bounceInRight 1s 3.5s 1 both;
+    -webkit-animation: fadeInRight 1s 3.5s 1 both;
+    animation: fadeInRight 1s 3.5s 1 both;
 }
 #page5 .line4{
-    -webkit-animation: bounceInUp 1s 5s 1 both;
-    animation: bounceInUp 1s 5s 1 both;
+    -webkit-animation: fadeInUp 1s 5s 1 both;
+    animation: fadeInUp 1s 5s 1 both;
 }
 #page5 .dot-3-1{
     -webkit-animation: bounceOut2 1s 2.5s 1 both;
