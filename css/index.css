@@ -874,20 +874,20 @@ html,body,.main{
     top: 5.8rem;
 }
 #page5 .line1{
-    -webkit-animation: zoomInLeft 1s 2.5s 1 both;
-    animation: zoomInLeft 1s 2.5s 1 both;
+    -webkit-animation: bounceInLeft 1s 2.5s 1 both;
+    animation: bounceInLeft 1s 2.5s 1 both;
 }
 #page5 .line2-1{
-    -webkit-animation: zoomInDown 1s 2.5s 1 both;
-    animation: zoomInDown 1s 2.5s 1 both;
+    -webkit-animation: bounceInDown 1s 2.5s 1 both;
+    animation: bounceInDown 1s 2.5s 1 both;
 }
 #page5 .line3{
-    -webkit-animation: zoomInRight 1s 3.5s 1 both;
-    animation: zoomInRight 1s 3.5s 1 both;
+    -webkit-animation: bounceInRight 1s 3.5s 1 both;
+    animation: bounceInRight 1s 3.5s 1 both;
 }
 #page5 .line4{
-    -webkit-animation: zoomInUp 1s 5s 1 both;
-    animation: zoomInUp 1s 5s 1 both;
+    -webkit-animation: bounceInUp 1s 5s 1 both;
+    animation: bounceInUp 1s 5s 1 both;
 }
 #page5 .dot-3-1{
     -webkit-animation: bounceOut2 1s 2.5s 1 both;
