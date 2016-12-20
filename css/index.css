@@ -803,11 +803,11 @@ html,body,.main{
 #page5 *{
     opacity: 1;
 }
-.slide5 .line{
+/*.slide5 .line{
     width: 2.3rem;
     content: '';
     height: 0.01rem;
-    /*border: 0.1rem dashed #00b3ee;*/
+    !*border: 0.1rem dashed #00b3ee;*!
     position: absolute;
 }
 .slide5 .line1{
@@ -816,7 +816,7 @@ html,body,.main{
     border-bottom: 0.01rem dashed #00b3ee;
 }
 .slide5 .line2{
-    /*width: 4rem;*/
+    !*width: 4rem;*!
     height: 5rem;
     border-left: 0.01rem dashed #00b3ee;
     position: absolute;
@@ -850,18 +850,24 @@ html,body,.main{
 }
 .slide5 .dot-3-2{
     top: 8.73rem;
+}*/
+.slide5 img:nth-child(5){
+    width: 2.5rem;
+    height: 5rem;
+    top: 3.8rem;
+    left: 0.75rem;
 }
-.slide5 img:nth-child(11){
+.slide5 img:nth-child(6){
     width: 0.3rem;
     height: 0.3rem;
     top: 4.4rem;
-    left: 0.66rem;
+    left: 0.62rem;
 }
-.slide5 img:nth-child(12){
+.slide5 img:nth-child(7){
     width: 0.3rem;
     height: 0.3rem;
     top: 5.8rem;
-    left: 0.66rem;
+    left: 0.62rem;
 }
 .slide5 .time{
     position: absolute;
@@ -870,13 +876,13 @@ html,body,.main{
 }
 .slide5 .time1{
     left: 1rem;
-    top: 4.35rem;
+    top: 4.4rem;
 }
 .slide5 .time2{
     left: 1rem;
     top: 5.8rem;
 }
-#page5 .line1{
+/*#page5 .line1{
     -webkit-animation: fadeInLeft 1s 2.5s 1 both;
     animation: fadeInLeft 1s 2.5s 1 both;
 }
@@ -899,22 +905,26 @@ html,body,.main{
 #page5 .dot-3-2{
     -webkit-animation: bounceOut2 1s 4.5s 1 both;
     animation: bounceOut2 1s 4.5s 1 both;
+}*/
+#page5 img:nth-child(5){
+    -webkit-animation: zoomIn 1s 5s 1 both;
+    animation: zoomIn 1s 5s 1 both;
 }
-#page5 img:nth-child(11){
-    -webkit-animation: bounceOut2 1s 3.5s 1 both;
-    animation: bounceOut2 1s 3.5s 1 both;
+#page5 img:nth-child(6){
+    -webkit-animation: bounceOut2 1.5s 3.5s 1 both;
+    animation: bounceOut2 1.5s 3.5s 1 both;
 }
-#page5 img:nth-child(12){
-    -webkit-animation: bounceOut2 1s 4s 1 both;
-    animation: bounceOut2 1s 4s 1 both;
+#page5 img:nth-child(7){
+    -webkit-animation: bounceOut2 1.5s 4s 1 both;
+    animation: bounceOut2 1.5s 4s 1 both;
 }
 #page5 .time1{
-    -webkit-animation:lightSpeedIn 1s 3s 1 both;
-    animation:lightSpeedIn 1s 3s 1 both;
-}
-#page5 .time2{
     -webkit-animation:lightSpeedIn 1s 3.5s 1 both;
     animation:lightSpeedIn 1s 3.5s 1 both;
+}
+#page5 .time2{
+    -webkit-animation:lightSpeedIn 1s 4s 1 both;
+    animation:lightSpeedIn 1s 4s 1 both;
 }
 /*第6页*/
 .slide6{
@@ -994,7 +1004,7 @@ html,body,.main{
 .slide6 img{
     position: absolute;
 }
-.slide6 .line2{
+/*.slide6 .line2{
     height: 5.5rem;
     border: 0.01rem dashed #00b3ee;
     position: absolute;
@@ -1029,6 +1039,12 @@ html,body,.main{
     width: 2rem;
     top: 9.3rem;
     left: 0.8rem;
+}*/
+.slide6 img:nth-child(5){
+    left: 0.68rem;
+    top: 3.65rem;
+    width: 2.5rem;
+    height: 6rem;
 }
 .slide6 img:nth-child(11){
     left: 0.68rem;
@@ -1072,7 +1088,11 @@ html,body,.main{
     left: 1.3rem;
     top: 7.2rem;
 }
-#page6 img:nth-child(11){
+#page6 img:nth-child(5){
+    -webkit-animation: rotateIn 1s 6.5s 1 both;
+    animation: rotateIn 1s 6.5s 1 both;
+}
+/*#page6 img:nth-child(11){
     -webkit-animation: bounceOut2 1s 3.5s 1 both;
     animation: bounceOut2 1s 3.5s 1 both;
 }
@@ -1087,7 +1107,7 @@ html,body,.main{
 #page6 img:nth-child(14){
     -webkit-animation: bounceOut2 1s 6.5s 1 both;
     animation: bounceOut2 1s 6.5s 1 both;
-}
+}*/
 @-webkit-keyframes bounceOut2 {
     0%,20%,40%,60%,80%,100%{
         transition-timing-function: cubic-bezier(.215,.61,.355,1);
@@ -1140,7 +1160,7 @@ html,body,.main{
     -webkit-animation: fadeInLeft 1s 3s 1 both;
     animation: fadeInLeft 1s 3s 1 both;
 }
-#page6 .line-6-2{
+/*#page6 .line-6-2{
     -webkit-animation: fadeInLeft 1s 4s 1 both;
     animation: fadeInLeft 1s 4s 1 both;
 }
@@ -1155,7 +1175,7 @@ html,body,.main{
 #page6 .line2-2{
     -webkit-animation: zoomIn 1s 2.5s 1 both;
     animation: zoomIn 1s 2.5s 1 both;
-}
+}*/
 #page6 .border-6-1{
     -webkit-animation: bounceInLeft 1s 3.5s 1 both;
     animation: bounceInLeft 1s 3.5s 1 both;
